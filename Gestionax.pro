@@ -14,10 +14,13 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    recherchebien.cpp
+    recherchebien.cpp \
+    ajouterbien.cpp
 
 HEADERS  += mainwindow.h \
-    recherchebien.h
+    recherchebien.h \
+    ajouterbien.h
 
 FORMS    += mainwindow.ui \
-    recherchebien.ui
+    recherchebien.ui \
+    ajouterbien.ui

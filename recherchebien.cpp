@@ -12,3 +12,8 @@ RechercheBien::~RechercheBien()
 {
     delete ui;
 }
+
+void RechercheBien::on_RetourButton_clicked()
+{
+    this->close();
+}

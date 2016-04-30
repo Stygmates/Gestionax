@@ -16,6 +16,17 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_rechercherPushButton_clicked()
 {
-    RechercheBien recherchebien;
-    recherchebien.exec();
+    recherchebien = new RechercheBien(this);
+    recherchebien->show();
+}
+
+void MainWindow::on_quitterPushButton_clicked()
+{
+    this->close();
+}
+
+void MainWindow::on_ajouterPushButton_clicked()
+{
+    ajouterbien = new AjouterBien(this);
+    ajouterbien->show();
 }

@@ -15,6 +15,9 @@ public:
     explicit RechercheBien(QWidget *parent = 0);
     ~RechercheBien();
 
+private slots:
+    void on_RetourButton_clicked();
+
 private:
     Ui::RechercheBien *ui;
 };

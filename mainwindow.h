@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "recherchebien.h"
+#include "ajouterbien.h"
 
 namespace Ui {
 class MainWindow;
@@ -18,8 +20,14 @@ public:
 private slots:
     void on_rechercherPushButton_clicked();
 
+    void on_quitterPushButton_clicked();
+
+    void on_ajouterPushButton_clicked();
+
 private:
     Ui::MainWindow *ui;
+    RechercheBien *recherchebien;
+    AjouterBien *ajouterbien;
 };
 
 #endif // MAINWINDOW_H
