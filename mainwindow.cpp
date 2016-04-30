@@ -7,7 +7,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    connect(ui->rechercherPushButton, SIGNAL(clicked(true), ui->MainWindow,SLOT(OnRechercheBien())));
 }
 
 MainWindow::~MainWindow()
@@ -15,8 +14,8 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-MainWindow::OnRechercheBien()
+void MainWindow::on_rechercherPushButton_clicked()
 {
-    RechercheBien rb = new RechercheBien(this);
-    rb->show();
+    RechercheBien recherchebien;
+    recherchebien.exec();
 }
