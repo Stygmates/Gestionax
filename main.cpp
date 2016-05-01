@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "recherchebien.h"
+#include "ajouterbien.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])

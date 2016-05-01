@@ -28,6 +28,7 @@ private:
     Ui::MainWindow *ui;
     RechercheBien *recherchebien;
     AjouterBien *ajouterbien;
+    Bien listeBiens[100];
 };
 
 #endif // MAINWINDOW_H
