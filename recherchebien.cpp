@@ -17,3 +17,8 @@ void RechercheBien::on_RetourButton_clicked()
 {
     this->close();
 }
+
+void RechercheBien::on_RechercherButton_clicked()
+{
+
+}
