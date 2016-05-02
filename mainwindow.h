@@ -16,6 +16,8 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+    Bien listeBiens[100];
+    int nbBiens = 0;
 
 private slots:
     void on_rechercherPushButton_clicked();
@@ -28,7 +30,6 @@ private:
     Ui::MainWindow *ui;
     RechercheBien *recherchebien;
     AjouterBien *ajouterbien;
-    Bien listeBiens[100];
 };
 
 #endif // MAINWINDOW_H
