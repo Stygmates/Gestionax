@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- Written by QtCreator 3.6.1, 2016-05-02T19:03:03. -->
 =======
 <!-- Written by QtCreator 3.6.1, 2016-05-02T15:56:24. -->
 >>>>>>> origin/master
+=======
+<!-- Written by QtCreator 3.6.1, 2016-04-10T19:37:50. -->
+>>>>>>> parent of af20da8... Ajout de la fonction de sauvegarde des données
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -287,8 +291,13 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Gestionax</value>
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/TanDat/Documents/Gestionax/Gestionax.pro</value>
+=======
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Gestionax2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/tit-a/Documents/GitHub/Gestionax/Gestionax.pro</value>
+>>>>>>> parent of af20da8... Ajout de la fonction de sauvegarde des données
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">Gestionax.pro</value>

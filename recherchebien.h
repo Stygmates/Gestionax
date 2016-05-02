@@ -18,8 +18,6 @@ public:
 private slots:
     void on_RetourButton_clicked();
 
-    void on_RechercherButton_clicked();
-
 private:
     Ui::RechercheBien *ui;
 };

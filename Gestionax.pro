@@ -5,8 +5,6 @@
 #-------------------------------------------------
 
 QT       += core gui
-QT += xml
-
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -17,6 +15,7 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     recherchebien.cpp \
+<<<<<<< HEAD
     ajouterbien.cpp \
     io.cpp \
     resultatsrecherche.cpp
@@ -26,6 +25,13 @@ HEADERS  += mainwindow.h \
     ajouterbien.h \
     io.h \
     resultatsrecherche.h
+=======
+    ajouterbien.cpp
+
+HEADERS  += mainwindow.h \
+    recherchebien.h \
+    ajouterbien.h
+>>>>>>> parent of af20da8... Ajout de la fonction de sauvegarde des données
 
 FORMS    += mainwindow.ui \
     recherchebien.ui \

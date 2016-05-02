@@ -2,14 +2,12 @@
 #include "recherchebien.h"
 #include "ajouterbien.h"
 #include <QApplication>
-#include "io.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow *w = new MainWindow();
-    w->show();
-    write(w);
+    MainWindow w;
+    w.show();
 
     return a.exec();
 }

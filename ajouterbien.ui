@@ -46,7 +46,7 @@
         <item>
          <widget class="QLabel" name="titreLabel">
           <property name="text">
-           <string>Titre           </string>
+           <string>Titre</string>
           </property>
          </widget>
         </item>
@@ -213,7 +213,7 @@
         <item>
          <widget class="QLabel" name="superficieLabel">
           <property name="text">
-           <string>Superficie(m²)      </string>
+           <string>Superficie(m²)</string>
           </property>
          </widget>
         </item>
@@ -223,7 +223,7 @@
         <item>
          <widget class="QLabel" name="habitableLabel">
           <property name="text">
-           <string>                                                  Dont habitable</string>
+           <string>Dont habitable</string>
           </property>
          </widget>
         </item>
@@ -250,7 +250,7 @@
         <item>
          <widget class="QLabel" name="adresseLabel">
           <property name="text">
-           <string>Adresse     </string>
+           <string>Adresse</string>
           </property>
          </widget>
         </item>
@@ -328,7 +328,7 @@
         <item>
          <widget class="QLabel" name="enVentelabel">
           <property name="text">
-           <string>A la vente  </string>
+           <string>A la vente</string>
           </property>
          </widget>
         </item>
@@ -349,12 +349,12 @@
         <item>
          <widget class="QLabel" name="label">
           <property name="text">
-           <string>                                                  A la location</string>
+           <string>A la location</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QSpinBox" name="prixLocationSpinBox"/>
+         <widget class="QSpinBox" name="spinBox"/>
         </item>
         <item>
          <spacer name="horizontalSpacer_5">

@@ -4,7 +4,7 @@
 #include <QDialog>
 
 typedef struct bien{
-    QString titre;
+    char *titre;
     bool estAchat;
     bool estLocation;
     bool estMaison;
@@ -14,13 +14,6 @@ typedef struct bien{
     bool estBureau;
     bool estCommerce;
     bool estAutre;
-    int nbPieces;
-    int superficie;
-    int habitable;
-    QString adresse;
-    QString description;
-    int prixVente;
-    int prixLocation;
 }Bien;
 
 namespace Ui {
@@ -37,8 +30,6 @@ public:
 
 private slots:
     void on_enregisterButton_clicked();
-
-    void on_annulerButton_clicked();
 
 private:
     Ui::AjouterBien *ui;
