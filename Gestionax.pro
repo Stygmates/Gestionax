@@ -18,13 +18,16 @@ SOURCES += main.cpp\
         mainwindow.cpp \
     recherchebien.cpp \
     ajouterbien.cpp \
-    io.cpp
+    io.cpp \
+    resultatsrecherche.cpp
 
 HEADERS  += mainwindow.h \
     recherchebien.h \
     ajouterbien.h \
-    io.h
+    io.h \
+    resultatsrecherche.h
 
 FORMS    += mainwindow.ui \
     recherchebien.ui \
-    ajouterbien.ui
+    ajouterbien.ui \
+    resultatsrecherche.ui

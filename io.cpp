@@ -123,3 +123,16 @@ void write(MainWindow *mainwindow)
         }
     }
 }
+
+void read(MainWindow *mainwindow){
+    QXmlStreamReader xmlReader;
+    QFile file("output.xml");
+    if (!file.open(QIODevice::ReadOnly))
+    {
+        QMessageBox::warning(0, "Error!", "Error opening file");
+    }
+    else
+    {
+        xmlReader.setDevice(&file);
+    }
+}

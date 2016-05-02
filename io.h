@@ -5,5 +5,6 @@
 #include "mainwindow.h"
 
 void write(MainWindow *mainwindow);
+void read(MainWindow *mainwindow);
 
 #endif // IO_H
